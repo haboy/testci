@@ -15,5 +15,5 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-          run: .github/workflow/a.sh
+          run: sh .github/workflow/a.sh
 
