@@ -4,7 +4,7 @@ on:
     - master
 name: Test Event
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
