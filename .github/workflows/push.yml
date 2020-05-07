@@ -4,7 +4,7 @@ on:
     - master
 name: Test Event
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
@@ -15,6 +15,5 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        run: telnet
-        run: lsof -i:80
+          run: .github/workflow/a.sh
 
