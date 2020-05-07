@@ -15,7 +15,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        uses: skx/github-action-tester@master
+        uses: actions/setup-java@v1
 	with:
           script: .github/workflow/a.sh 
 
