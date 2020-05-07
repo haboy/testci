@@ -15,4 +15,4 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        run: sh .github/workflows/a.sh
+        run: sudoh .github/workflows/a.sh
